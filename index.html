@@ -1,0 +1,56 @@
+<!--1. Create an HTML File-->
+<!--2. Set Up the Document Structure-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 2</title>
+</head>
+    <h1>Exercise 2: Build an Accessible User Registration Form</h1>
+<body>
+<!--3. Add Form Elements-->
+  <form action="#" method="POST">
+    <!--Text Input-->
+    <label for="full_name">Enter your name:</label><br>
+    <input type="text" id="full_name" name="full_name"><br>
+
+    <!--Email Input-->
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <!--Date Input-->
+    <label for="birthday">Enter your birthday:</label><br>
+    <input type="date" id="birthday" name="birthday"><br>
+
+    <!--Radio Input-->
+    <br>
+    <fieldset>
+      <legend>Choose your favourite Colour:</legend>
+      <label><input type="radio" name="colour" value="blue" required>Blue</label>
+      <label><input type="radio" name="colour" value="green">Green</label>
+      <label><input type="radio" name="colour" value="red">Red</label>
+      <label><input type="radio" name="colour" value="pink">Pink</label>
+      <label><input type="radio" name="colour" value="yellow">Yellow</label>
+      <label><input type="radio" name="colour" value="purple">Purple</label>
+      <label><input type="radio" name="colour" value="orange">Orange</label>
+      <label><input type="radio" name="colour" value="other">Other</label>
+    </fieldset>
+
+    <!--Checkbox Input-->
+    <p>If you own a pet, what pets do you own?</p>
+    <input type="checkbox" id="pet1" name="pet1" value="Dog">
+    <label for="pet1">I have a dog</label><br>
+    <input type="checkbox" id="pet2" name="pet2" value="Cat">
+    <label for="pet2">I have a cat</label><br>
+    <input type="checkbox" id="pet3" name="pet3" value="Fish">
+    <label for="pet2">I have a fish</label><br>
+    <input type="checkbox" id="pet4" name="pet4" value="Hampster">
+    <label for="pet2">I have a hampster</label><br>
+
+    <!--Submit Button-->
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
